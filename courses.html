@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOL WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+<!-- ✅ Latest Font Awesome (as of mid-2025) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo-removebg-preview.png" alt=""></a>
+            <div class="nav-list" id="nav-lista">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+ 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+          <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+           <h1>Our Courses</h1>
+        
+
+    </section>
+
+    <!----------------courses page---------->
+     <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <div class="row">
+            <div class="course-container">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit, sint quos minima repudiandae ut fugit ad fugiat ipsam deserunt voluptatibus culpa facilis recusandae, illo quod? Natus labore dolorum accusamus.
+                </p>
+                
+            </div>  
+            <div class="course-container">
+                <h3>Mobile App Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit, sint quos minima repudiandae ut fugit ad fugiat ipsam deserunt voluptatibus culpa facilis recusandae, illo quod? Natus labore dolorum accusamus.
+                </p>
+            </div>
+            <div class="course-container">
+                <h3>Data Science</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, velit, sint quos minima repudiandae ut fugit ad fugiat ipsam deserunt voluptatibus culpa facilis recusandae, illo quod? Natus labore dolorum accusamus.
+                </p>
+            </div>
+        </div>
+
+        </section>
+
+        <!---------facilities====---------->
+
+<section class="facilities">
+            <h1>Our facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="facililties-col">
+                    <img src="library.jfif" alt="">
+                    <h3>Library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto praesentium laborum sint fuga? Sunt aperiam sit nisi cupiditate deserunt odio accusamus dicta ipsam iusto</p>
+                </div>
+                <div class="facililties-col">
+                    <img src="laboratorty.jfif" alt="">
+                    <h3>Laboratory</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto praesentium laborum sint fuga? Sunt aperiam sit nisi cupiditate deserunt odio accusamus dicta ipsam iusto</p>
+                </div>
+                <div class="facililties-col">
+                    <img src="sport.jfif" alt="">
+                    <h3>Sports Complex</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto praesentium laborum sint fuga? Sunt aperiam sit nisi cupiditate deserunt odio accusamus dicta ipsam iusto</p>
+                </div>
+            
+        </section>
+
+    
+    <!----------------- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur tempora, vitae praesentium <br>nostrum nam cupiditate. Autem, et non laudantium </p>
+<div class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+</div>
+<p>Made with <i class="fa fa-heart"></i>  by Caleb </p>
+    </section>
+  <!--------------  about us  -->
+   
+    
+
+
+
+        <!---js for toggle menu -->
+    <script>
+        var navList = document.getElementById("nav-lista");
+
+        function showMenu() {
+            navList.style.right = "0";
+        }
+
+        function hideMenu() {
+            navList.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
